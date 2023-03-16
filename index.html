@@ -4,16 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wiring frames</title>
+    <title>wiring Frame</title>
     <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&subset=latin-ext" rel="stylesheet">
+     
     <link rel="stylesheet" href="zig-zag.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
   <nav>
     <div class="wrapper">
-        <img src="3d-w-letter-vector-graphic-alphabet-abc-blue-education-16.png" alt="LOGO" class="responsive" width="60" height="30">
+ <img src="logo.png" class="responsive">
       <input type="radio" name="slider" id="menu-btn">
       <input type="radio" name="slider" id="close-btn">
       <ul class="nav-links">
@@ -38,33 +47,33 @@
           <div class="mega-box">
             <div class="content">
               <div class="row">
-                <img src="3d-w-letter-vector-graphic-alphabet-abc-blue-education-16.png" alt="LOGO" class="responsive" width="60" height="40">
+                <img src="img.jpg" alt="">
               </div>
               <div class="row">
                 <header>Design Services</header>
                 <ul class="mega-links">
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
+                  <li><a href="#">Graphics</a></li>
+                  <li><a href="#">Vectors</a></li>
+                  <li><a href="#">Business cards</a></li>
+                  <li><a href="#">Custom logo</a></li>
                 </ul>
               </div>
               <div class="row">
                 <header>Email Services</header>
                 <ul class="mega-links">
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
+                  <li><a href="#">Personal Email</a></li>
+                  <li><a href="#">Business Email</a></li>
+                  <li><a href="#">Mobile Email</a></li>
+                  <li><a href="#">Web Marketing</a></li>
                 </ul>
               </div>
               <div class="row">
                 <header>Security services</header>
                 <ul class="mega-links">
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
-                    <li><a href="#">M Drop menu 1</a></li>
+                  <li><a href="#">Site Seal</a></li>
+                  <li><a href="#">VPS Hosting</a></li>
+                  <li><a href="#">Privacy Seal</a></li>
+                  <li><a href="#">Website design</a></li>
                 </ul>
               </div>
             </div>
@@ -75,6 +84,17 @@
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
     </div>
   </nav>
+
+
+
+
+
+
+
+
+
+
+
 <!--BANNER IMAGE/VIDEOO ACCORDING TO REQUEST-->
 <br><br>
 <img src="txt.gif" alt="Nature" class="responsiveBANNER" width="100%" height="400">
@@ -112,7 +132,7 @@
 <section class="big-feature-section" >
   <div class="container flex big-feature-container" id="second-big-feature">
       <div class="feature-img">
-          <img src="https://picsum.photos/seed/picsum/600/300" alt=""><button class="btn info">Download PDF</button>
+          <img src="https://picsum.photos/seed/picsum/600/300" alt=""><br><button class="btna info">Download PDF</button>
       </div>
       <div class="feature-desc flex">
         <h4><b>Winged Wonders</b></h4>
@@ -130,8 +150,108 @@
           with <b>”Birds of the World”</b> as the theme for Wild Wisdom Global<br>
           Challenge 2023!</p>
     </div>
-  </div>
+  </div><br><br>
 </section>
+<div class="container">
+  <div class="row" id="slider-text">
+    <div class="col-md-6" >
+      <h2>Our Sponsers and Supporterss</h2>
+      <h6  class="col-md-6">We thank our sponsors and partners for their
+        unwavering supporters!</h6>
+    </div>
+  </div>
+</div>
 
+<!-- Item slider-->
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12">
+      <div class="carousel carousel-showmanymoveone slide" id="itemslider">
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://picsum.photos/seed/picsum/300/500" class="img-responsive center-block"></a>
+              <h4 class="text-center">brand name</h4>
+             
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://picsum.photos/seed/picsum/300/500" class="img-responsive center-block"></a>
+              <h4 class="text-center">brand name</h4>
+             
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://picsum.photos/seed/picsum/300/500" class="img-responsive center-block"></a>
+              <h4 class="text-center">brand name</h4>
+             
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://picsum.photos/seed/picsum/300/500" class="img-responsive center-block"></a>
+              <h4 class="text-center">brand name</h4>
+             
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://picsum.photos/seed/picsum/300/500" class="img-responsive center-block"></a>
+              <h4 class="text-center">brand name</h4>
+             
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-xs-12 col-sm-6 col-md-2">
+              <a href="#"><img src="https://picsum.photos/seed/picsum/300/500" class="img-responsive center-block"></a>
+              <h4 class="text-center">brand name</h4>
+             
+            </div>
+          </div>
+
+        </div>
+
+        <div id="slider-control">
+        <a class="left carousel-control" href="#itemslider" data-slide="prev"><img src="https://cdn0.iconfinder.com/data/icons/website-kit-2/512/icon_402-512.png" alt="Left" class="img-responsive"></a>
+        <a class="right carousel-control" href="#itemslider" data-slide="next"><img src="http://pixsector.com/cache/81183b13/avcc910c4ee5888b858fe.png" alt="Right" class="img-responsive"></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Item slider end-->
+<br/><br/>
 </body>
 </html>
+
+
+<script>$(document).ready(function(){
+
+  $('#itemslider').carousel({ interval: 3000 });
+  
+  $('.carousel-showmanymoveone .item').each(function(){
+  var itemToClone = $(this);
+  
+  for (var i=1;i<6;i++) {
+  itemToClone = itemToClone.next();
+  
+  if (!itemToClone.length) {
+  itemToClone = $(this).siblings(':first');
+  }
+  
+  itemToClone.children(':first-child').clone()
+  .addClass("cloneditem-"+(i))
+  .appendTo($(this));
+  }
+  });
+  });
+  </script>

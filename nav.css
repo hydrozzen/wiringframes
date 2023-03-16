@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -267,8 +268,46 @@ nav input{
   text-align: center;
   padding: 0 30px;
 }
+.body-text div{
+  font-size: 45px;
+  font-weight: 600;
+}
+
 
 .responsive {
     width: 9%;
     height: auto;
   }
+
+.btna{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* Blue */
+.info {
+    border-color: #2196F3;
+    color: dodgerblue;
+  }
+  
+  .info:hover {
+    background: #2196F3;
+    color: white;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
