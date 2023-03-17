@@ -69,3 +69,29 @@
     align-items: flex-start;
 }
 
+/**side by side image**/
+
+
+.avatar {
+    vertical-align: middle;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 29%;
+    padding: 15x;  margin-left:3%;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

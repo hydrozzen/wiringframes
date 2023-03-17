@@ -11,7 +11,7 @@ nav{
   z-index: 99;
   width: 100%;
   
-  background: #242526;
+  background: #000000;
 }
 nav .wrapper{
   position: relative;
@@ -146,7 +146,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #242526;
+    background: #000000;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -304,10 +304,16 @@ nav input{
 
 
 
+                                             /**flight ka tedt**/
+.flight{
+    font-size:largest;
+    align-items: center;
+}
+/**TITLE FOPR AWARD SEGMENT**/
 
-
-
-
+.h2w{
+    margin-left:5%;   color:00FFFF;
+}
 
 
 
