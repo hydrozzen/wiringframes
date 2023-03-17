@@ -17,6 +17,8 @@
     background-image: url(./assets/asset\ 32.svg);
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .features-header {
@@ -50,10 +52,13 @@
 
 .big-feature-section {
     padding: 30px var(--padding-inline-section) 0;
+
 }
 
 .big-feature-container {
     gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #second-big-feature {

@@ -312,11 +312,34 @@ nav input{
 /**TITLE FOPR AWARD SEGMENT**/
 
 .h2w{
-    margin-left:5%;   color:00FFFF;
+    margin-left:5%; 
+    color: #2196F3;
+}
+.mainthing{
+  background-color: #ffffff;
 }
 
 
 
 
+/*****side imagess********/
+.sidecol {
+  float: left;
+  width: 20%;
+  padding: 5px;
+  margin-left: 5%;
+}
+
+/* Clearfix (clear floats) */
+.siderow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.responsiveqq {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
 
   
