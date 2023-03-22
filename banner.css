@@ -1,31 +1,4 @@
-.responsiveBANNER{
+.responsivebanner{
     width: 100%;
     height: auto;
-}
-
-/*logo kae neechee ka text*/
-.leftlogo{
-    align-items: left;
-    font-size: small;
-    padding: 2%;  
-    display: flex;
-    margin-left: 2%;
-      font-weight: 300;
-}
-.rightlogo{
-  
-    margin-top: -2%;
-float: right;
-    
-    font-weight:bolder;
-    font-size: 4555;
-}
-
-.leftrlogo{
-    align-items: left;
-    font-size: small;
-    padding: 2%;  
-    display: flex;
-    margin-left: 4%;
-      font-weight: 600; 
-}
+  }

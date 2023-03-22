@@ -1,0 +1,85 @@
+
+  .content-container {
+    padding: 75px;
+  }
+  
+  .col-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column-one {
+    float: left;
+    width: 60%;
+    padding: 25px;
+  }
+  
+  .column-two {
+    float: left;
+    width: 40%;
+    padding: 25px;
+  }
+  
+  .l-font {
+    font-size: 45px;
+    color: #03071e;
+  }
+  
+  .xl-font {
+    font-size: 65px;
+    color: #03071e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .button {
+    border: 5px solid #03071e;
+    background-color: transparent;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #03071e;
+    font-weight: bold;
+    transition: .2s;
+  }
+  
+  .button:hover {
+    background-color: #03071e;
+    color: white;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .h6{
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+  }
+  .primary-button {
+    background-color:rgb(39, 132, 194);
+    border-radius: 6px;
+    font-weight: 700;
+    color: rgb(0, 0, 0) !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+    text-align: center;
+}
+.primary-button:hover {
+    background-color:#00aeff;
+}
+  
+  @media screen and (max-width: 800px) {
+    .column-one,
+    .column-two {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+  }

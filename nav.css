@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -11,7 +10,7 @@ nav{
   z-index: 99;
   width: 100%;
   
-  background: #000000;
+  background: #242526;
 }
 nav .wrapper{
   position: relative;
@@ -28,6 +27,7 @@ nav .wrapper{
   color: #f2f2f2;
   font-size: 30px;
   font-weight: 600;
+  margin-left: -12%;
   text-decoration: none;
 }
 .wrapper .nav-links{
@@ -146,7 +146,7 @@ nav .wrapper{
     max-width: 350px;
     top: 0;
     left: -100%;
-    background: #000000;
+    background: #242526;
     display: block;
     padding: 50px 10px;
     line-height: 50px;
@@ -273,73 +273,8 @@ nav input{
   font-weight: 600;
 }
 
-
-.responsive {
-    width: 9%;
+.responsivenavimg {
+    width: 80%;
     height: auto;
+    margin-top: 45%;
   }
-
-.btna{
-    border: 2px solid black;
-    background-color: white;
-    border-radius: 10%;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 2%;
-    margin-left: 5%;
-}
-/* Blue */
-.info {
-    border-color: #2196F3;
-    color: dodgerblue;
-  }
-  
-  .info:hover {
-    background: #2196F3;
-    color: white;
-  }
-  
-
-
-
-                                             /**flight ka tedt**/
-.flight{
-    font-size:largest;
-    align-items: center;
-}
-/**TITLE FOPR AWARD SEGMENT**/
-
-.h2w{
-    margin-left:5%; 
-    color: #2196F3;
-}
-.mainthing{
-  background-color: #ffffff;
-}
-
-
-
-
-/*****side imagess********/
-.sidecol {
-  float: left;
-  width: 20%;
-  padding: 5px;
-  margin-left: 5%;
-}
-
-/* Clearfix (clear floats) */
-.siderow::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.responsiveqq {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-
-  
