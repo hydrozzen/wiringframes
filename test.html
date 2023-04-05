@@ -1,31 +1,83 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
 <style>
-* {
-  box-sizing: border-box;
-}
-
 
 </style>
 </head>
 <body>
 
-<h2>Images Side by Side</h2>
-<p>How to create side-by-side images with the CSS float property:</p>
 
-<div class="siderow">
-  <div class="sidecol">
-    <img src="https://picsum.photos/2200/3020" alt="Snow" class="responsive" style="width:70%">
-  </div>
-  <div class="sidecol">
-    <img src="https://picsum.photos/2200/3020" class="responsive" style="width:70%">
-  </div>
-  <div class="sidecol">
-    <img src="https://picsum.photos/2200/3020" class="responsive" style="width:70%">
-  </div>
+<!--bannerrrr-->
+<img src="banner.png" alt="Nature" class="responsive" width="600" height="400">
+<!--FIRST THING-->
+
+<div class="firstone">
+ <h3 class="haveyou">Have you heard the expression ‘bird-brained’?</h3>
+    <div class="fisrstleft">
+        <p class="firstlefpara">It’s used to describe someone as being foolish or scatterbrained. But birds are far from foolish! Their 
+            behaviours are tremendously diverse, and all are meant to ensure their survival. Let’s learn some wisdom 
+            from the birds of the world – at the Wild Wisdom Global Challenge 2023!</p>
+
+            <p class="secondparalef">People around the world have long been fascinated by these creatures of the air, with eagles, doves, and other 
+                birds inspiring art, poetry, and music, and birds like cranes, falcons and parrots found in ancient cave 
+                paintings, Egyptian pyramids, and other historical monuments.</p>
+<br>
+                <div class="firstrow">
+                    <div class="firstcolumnlef" >
+                      <img src="banner.png" alt="Snow" style="width:100%"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam quam ut, tempore obcaecati incidunt ipsa adipisci! Recusandae.</p>
+                    </div>
+                    <div class="firstcolumnrig">
+                      <img src="banner.png" alt="Forest" style="width:100%"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium illo doloremque veniam!</p>
+                    </div>
+                   
+                  </div>
+                  
+
+
+
+
+    </div>
+    <div class="firsright"></div>
 </div>
 
 </body>
 </html>
-<style></style>
+
+
+.firstcolumnlef {
+  float: left;
+  transform: rotate(10deg);
+  width: 45%;
+  padding: 5px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background-color: aqua;
+  color: white;
+  font-size: large;
+  font-weight: 340;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.firstcolumnrig {
+    float: left;
+    transform: rotate(-6deg);
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    color: white;
+    font-size: large;
+    font-weight: 3540;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:aqua ;
+    padding: 5px;
+  }
+
+/* Clearfix (clear floats) */
+.firstrow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
